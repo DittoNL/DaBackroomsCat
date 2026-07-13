@@ -7,8 +7,15 @@ An open source GUI Da Backrooms script.
 > [!IMPORTANT]
 > Down below is a list of all the features the script currently has.
 
-> [!IMPORTANT]
-> Main Tab
-> Walkspeed Adjuster
-> Infinite Stamina
-> Infinite Sanity
+Main Tab
+> Walkspeed Adjuster.  
+> Infinite Stamina.  
+> Infinite Sanity.
+>
+Combat Tab
+> Auto Shoot.   
+> Auto Spam Ability.     
+> Disable Sickle Puddles.    
+> Disable Waves.   
+> Disable Portals.   
+> Custom No Item Loss.  
