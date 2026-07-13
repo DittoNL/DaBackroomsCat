@@ -6,8 +6,7 @@ An open source GUI Da Backrooms script.
 
 > [!IMPORTANT]
 > Down below is a list of all the features the script currently has.
->
-> 
+
 > [!IMPORTANT]
 > Main Tab
 > Walkspeed Adjuster
