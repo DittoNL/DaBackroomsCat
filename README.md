@@ -27,20 +27,20 @@ Duplication
 > Prevent missing textures (Client)
 > 
 Visual
-> Entity ESP
-> Disable Camera Effects
-> No Blur
-> Show Vault          
+> Entity ESP   
+> Disable Camera Effects    
+> No Blur   
+> Show Vault             
 
 Experimental
 > Replace bone scythes animation with the trident  
-> Item Aura
-> Proximity Prompts Range increase and shorten hold duration
-> Show Aegis Ring
-> Brick Dupe
-> Auto Consume
+> Item Aura   
+> Proximity Prompts Range increase and shorten hold duration  
+> Show Aegis Ring   
+> Brick Dupe    
+> Auto Consume   
 >
 Hub
-> Clear inventory
-> Spin Button
-> Auto Spin
+> Clear inventory   
+> Spin Button   
+> Auto Spin    
