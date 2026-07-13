@@ -9,7 +9,6 @@ end end
 if not loadstring and load then loadstring = load end
 if not loadstring then loadstring = function(s) return load(s) end end
 
---[Obfuscated by Hercules v2.0.0 | hercules-obfuscator.xyz/discord | hercules-obfuscator.xyz/source]
 do
     local _BFR,_MFR,T,E,Pa,GM,RG={["assert"]=assert,["math.floor"]=math.floor,["math.modf"]=math.modf,["math.acos"]=math.acos,["getmetatable"]=getmetatable,["setmetatable"]=setmetatable,["math.atan"]=math.atan,["pcall"]=pcall,["rawset"]=rawset,["string.byte"]=string.byte,["rawget"]=rawget,["string.len"]=string.len,["os.time"]=os.time,["select"]=select,["os.date"]=os.date,["string.sub"]=string.sub,["string.gmatch"]=string.gmatch,["xpcall"]=xpcall,["math.abs"]=math.abs,["type"]=type,["math.tan"]=math.tan,["math.fmod"]=math.fmod,["math.exp"]=math.exp,["math.rad"]=math.rad,["math.sin"]=math.sin,["math.sqrt"]=math.sqrt,["rawequal"]=rawequal,["math.min"]=math.min,["math.max"]=math.max,["tostring"]=tostring,["table.insert"]=table.insert,["string.upper"]=string.upper,["string.lower"]=string.lower,["math.deg"]=math.deg,["math.asin"]=math.asin,["tonumber"]=tonumber,["table.sort"]=table.sort,["math.cos"]=math.cos,["math.ceil"]=math.ceil,["os.difftime"]=os.difftime,["os.clock"]=os.clock,["string.find"]=string.find,["string.gsub"]=string.gsub,["next"]=next,["string.char"]=string.char,["table.remove"]=table.remove,["string.match"]=string.match,["error"]=error,["string.rep"]=string.rep,["table.concat"]=table.concat,["string.reverse"]=string.reverse,["string.format"]=string.format},{},type,error,pairs,getmetatable,rawget
     local DG={table=table,string=string,math=math,os=os}
@@ -127,15 +126,12 @@ end
 
 if (not (30 >= 58)) == (30 < 58) then
     SPWUsJcdLlJ:Button(RUXqxIdf('omdyzio wjiz vidhvodji', 21), function()
-    -- Get the local player
     local PLOEoLlAsn = game.Players.LocalPlayer
     
-    -- Function to update animations in a tool's LocalScript
     local function MguZgttwJo(tool)
     if tool:FindFirstChild(RUXqxIdf("JmayjQapgnr", 24)) then
     local dtxroUsq = tool.LocalScript
     
-    -- Function to replace animation IDs if they exist
     local function JhXcAIXxAQP(animationName, newId)
     local hZpFXnTo = dtxroUsq:FindFirstChild(animationName)
     if hZpFXnTo and hZpFXnTo:IsA(RUXqxIdf("Ylgkyrgml", 24)) then
@@ -235,7 +231,6 @@ if 16 % 16 == 0 then
     end
     end
     
-    -- Vault Section
     sQIdTHEXT:Label(RUXqxIdf("--Rwqhp--", 22))
     local nqVuWrUItZD = PLOEoLlAsn:FindFirstChild(RUXqxIdf("GotsWhsag", 14))
     if nqVuWrUItZD then
@@ -309,17 +304,15 @@ if true then
     getgenv().autoShoot = state
     
     if state then
-    -- Start auto-shoot loop
     task.spawn(function()
     while getgenv().autoShoot do
     local WbVxcKeJFY = uluFoAQCcgZ.CFrame
     local DNliiArDC = WbVxcKeJFY.Position
-    local ujLZQarFIxj = WbVxcKeJFY.LookVector * 200 -- adjust distance if needed
+    local ujLZQarFIxj = WbVxcKeJFY.LookVector * 200 
     
     local EXWQBkOTK = hYnHqaKRyFWI:Raycast(DNliiArDC, ujLZQarFIxj, QcANVmlUf)
     
     if EXWQBkOTK then
-    -- Hit something: send real target
     GUObtknAJ:FireServer(
     WbVxcKeJFY,
     EXWQBkOTK.Instance,
@@ -327,7 +320,6 @@ if true then
     1
     )
     else
-    -- Hit nothing: send "Failed" to match expected logic
     GUObtknAJ:FireServer(
     WbVxcKeJFY,
     RUXqxIdf("Dygjcb", 24),
@@ -336,7 +328,7 @@ if true then
     )
     end
     
-    task.wait(0) -- Adjust firing speed if needed
+    task.wait(0) 
     end
     end)
     end
@@ -360,7 +352,7 @@ if 8 - 8 == 0 then
     local function IKMrLNnGFpH(model)
     if _G.ESPObjects[model] then return end
     
-    -- Add highlights to all BaseParts
+  
     local GtYjiZnqh = {}
     for _, XuoRsByDIdzt in VeUjpuJhOXt(model:GetDescendants()) do
     if XuoRsByDIdzt:IsA(RUXqxIdf("AzrdOzqs", 25)) then
@@ -388,7 +380,7 @@ if 8 - 8 == 0 then
     xlwHygVGhQ.AlwaysOnTop = true
     xlwHygVGhQ.Parent = model
     
-    -- Name label
+   
     local AGwxPYcTEkI = Instance.new(RUXqxIdf("SdwsKzadk", 25))
     AGwxPYcTEkI.Size = UDim2.new(1, 0, 0.5, 0)
     AGwxPYcTEkI.Position = UDim2.new(0, 0, 0, 0)
@@ -399,7 +391,7 @@ if 8 - 8 == 0 then
     AGwxPYcTEkI.Text = model.Name
     AGwxPYcTEkI.Parent = xlwHygVGhQ
     
-    -- Damage label
+  
     local SrABTFZHCDJu = Instance.new(RUXqxIdf("OzsoGvwzg", 21))
     SrABTFZHCDJu.Size = UDim2.new(1, 0, 0.5, 0)
     SrABTFZHCDJu.Position = UDim2.new(0, 0, 0.5, 0)
@@ -450,7 +442,6 @@ if 8 - 8 == 0 then
     end
     end
     
-    -- Watch for new models
     _G.ESPConnectionAdded = GDvOrMOOKD.ChildAdded:Connect(function(child)
     if child:IsA(RUXqxIdf("Cetub", 16)) then
     IKMrLNnGFpH(child)
@@ -461,7 +452,6 @@ if 8 - 8 == 0 then
     zXMuSMmvKT(child)
     end)
     else
-    -- Remove all ESP
     for model, _ in LVaUaIKNPCl(_G.ESPObjects) do
     zXMuSMmvKT(model)
     end
@@ -540,7 +530,6 @@ if not (90 ~= 90) then
     end
     end
     end
-    -- Move model into Items folder
     model.Parent = OZGRwDEjgq
     end
     end
@@ -553,14 +542,12 @@ if (not (30 >= 84)) == (30 < 84) then
     local YTwmoEGkLOju = game:GetService(RUXqxIdf("Jfusylm", 20))
     local OZGRwDEjgq = hYnHqaKRyFWI:WaitForChild(RUXqxIdf("Grckq", 24))
     
-    -- Move existing characters
     for _, PLOEoLlAsn in LVaUaIKNPCl(YTwmoEGkLOju:GetPlayers()) do
     if PLOEoLlAsn.Character then
     PLOEoLlAsn.Character.Parent = OZGRwDEjgq
     end
     end
     
-    -- Move new characters when they spawn
     YTwmoEGkLOju.PlayerAdded:Connect(function(PLOEoLlAsn)
     PLOEoLlAsn.CharacterAdded:Connect(function(hoNlmSVn)
     hoNlmSVn.Parent = OZGRwDEjgq
@@ -579,13 +566,11 @@ if 38 >= 38 then
     
     local RgPeBFTDbl = game:GetService(RUXqxIdf("QdokhbzsdcRsnqzfd", 25)):WaitForChild(RUXqxIdf("AlweHgkwk", 18))
     
-    -- move Mjolnir
     local zKWALGnhMM = RgPeBFTDbl:FindFirstChild(RUXqxIdf("Czebdyh", 16))
     if zKWALGnhMM then
     zKWALGnhMM.Parent = OZGRwDEjgq
     end
     
-    -- move Void blade
     local vrwMNhGDV = RgPeBFTDbl:FindFirstChild(RUXqxIdf("Unhc akzcd", 25))
     if vrwMNhGDV then
     vrwMNhGDV.Parent = OZGRwDEjgq
@@ -652,11 +637,9 @@ if 37 - 37 == 0 then
     rnzFRxSFaw:Toggle(RUXqxIdf("Chrzakd Vzud Czlzfd", 25), false, function(state)
     local SHUqgRZqqDxd = game:GetService(RUXqxIdf("Vnqjrozbd", 25))
     
-    -- scoped vars inside the toggle
     local hoEzeVvwY
     local EzOTVMvZWo
     
-    -- helper to patch a wave model
     local function BRBcTKBhdE(model)
     local fSeXKSbwaC = model:FindFirstChild(RUXqxIdf("Uytc", 24))
     if fSeXKSbwaC and fSeXKSbwaC:IsA(RUXqxIdf("GymbJuln", 20)) then
@@ -674,14 +657,12 @@ if 37 - 37 == 0 then
     end
     
     if state then
-    -- patch all existing waves
     for _, obj in VeUjpuJhOXt(SHUqgRZqqDxd:GetChildren()) do
     if obj:IsA(RUXqxIdf("Kmbcj", 24)) and obj.Name == RUXqxIdf("Eidm", 8) then
     BRBcTKBhdE(obj)
     end
     end
     
-    -- detect new waves
     hoEzeVvwY = SHUqgRZqqDxd.ChildAdded:Connect(function(obj)
     if obj:IsA(RUXqxIdf("Lncdk", 25)) and obj.Name == RUXqxIdf("Txsb", 23) then
     task.defer(function()
@@ -690,7 +671,6 @@ if 37 - 37 == 0 then
     end
     end)
     
-    -- keep re-checking just in case
     EzOTVMvZWo = task.spawn(function()
     while task.wait(1) and state do
     for _, obj in VeUjpuJhOXt(SHUqgRZqqDxd:GetChildren()) do
@@ -701,7 +681,6 @@ if 37 - 37 == 0 then
     end
     end)
     else
-    -- cleanup when toggle is turned off
     if hoEzeVvwY then
     hoEzeVvwY:Disconnect()
     hoEzeVvwY = nil
@@ -745,7 +724,6 @@ if not (86 ~= 86) then
     for _, child in VeUjpuJhOXt(model:GetDescendants()) do
     cRAVQXwlV(child)
     end
-    -- also listen for new parts inside this puddle
     local kLkQGQjfqr = model.DescendantAdded:Connect(function(child)
     cRAVQXwlV(child)
     end)
@@ -753,21 +731,18 @@ if not (86 ~= 86) then
     end
     
     if state then
-    -- patch existing puddles
     for _, obj in VeUjpuJhOXt(SHUqgRZqqDxd:GetChildren()) do
     if obj:IsA(RUXqxIdf("Bdsta", 15)) and obj.Name == RUXqxIdf("LhwuanLqzzha", 22) then
     IrYBtsWIiEpq(obj)
     end
     end
     
-    -- detect new puddles
     pJiHOlrCKWwE = SHUqgRZqqDxd.ChildAdded:Connect(function(obj)
     if obj:IsA(RUXqxIdf("Hjyzg", 21)) and obj.Name == RUXqxIdf("MixvboMraaib", 23) then
     IrYBtsWIiEpq(obj)
     end
     end)
     
-    -- safety loop in case anything slips
     JIAcSribLB = task.spawn(function()
     while task.wait(1) and state do
     for _, obj in VeUjpuJhOXt(SHUqgRZqqDxd:GetChildren()) do
@@ -806,12 +781,10 @@ if (not (15 >= 72)) == (15 < 72) then
     end
     
     if state then
-    -- Remove existing portals
     for _, obj in VeUjpuJhOXt(pVCaswrrfhDO:GetChildren()) do
     kifdwqesIHkR(obj)
     end
     
-    -- Listen for new ones
     lKLbZwHfpjBs = pVCaswrrfhDO.ChildAdded:Connect(kifdwqesIHkR)
     else
     -- Stop listening
@@ -835,11 +808,9 @@ if 22 >= 22 then
     local tUpGtFRTb = kxFjEHXd:WaitForChild(RUXqxIdf("Rvzo", 25))
     
     if state then
-    -- Toggle ON
     XykQCkzykfS.Position = UDim2.new(0.497999996, 0, 0.488999993, 0)
     tUpGtFRTb.Visible = true
     else
-    -- Toggle OFF
     XykQCkzykfS.Position = UDim2.new(1.49800003, 0, 0.488999993, 0)
     tUpGtFRTb.Visible = false
     end
@@ -861,7 +832,6 @@ if 60 - 60 == 0 then
     local hoNlmSVn = PLOEoLlAsn.Character or PLOEoLlAsn.CharacterAdded:Wait()
     local ZmwygsukZEDA = rjLaAZvn:WaitForChild(RUXqxIdf("Lqkbj", 16))
     
-    -- Function to vault all tools in the backpack
     local function HMnlQJAwyp()
     for _, tool in VeUjpuJhOXt(pvPKfzBibWk:GetChildren()) do
     if tool:IsA(RUXqxIdf("Idda", 15)) then
@@ -872,10 +842,8 @@ if 60 - 60 == 0 then
     end
     
     if state then
-    -- Toggle ON
     getgenv().autovault = true
     
-    -- Health monitoring
     local function HKThfOVcbw(nAlKNIYZZgWz)
     nAlKNIYZZgWz.HealthChanged:Connect(function(newHealth)
     if getgenv().autovault and newHealth < 10 then
@@ -884,11 +852,9 @@ if 60 - 60 == 0 then
     end)
     end
     
-    -- Initial humanoid
     local nAlKNIYZZgWz = hoNlmSVn:WaitForChild(RUXqxIdf("Cphvijdy", 21))
     HKThfOVcbw(nAlKNIYZZgWz)
     
-    -- Handle respawn
     PLOEoLlAsn.CharacterAdded:Connect(function(newChar)
     hoNlmSVn = newChar
     local ZYZcvKzn = hoNlmSVn:WaitForChild(RUXqxIdf("Dqiwjkez", 22))
@@ -927,9 +893,9 @@ if 35 + 12 == 47 then
     piAoQZylmXzK = hoNlmSVn.ChildAdded:Connect(function(model)
     if model:IsA(RUXqxIdf("Kmbcj", 24)) then
     task.defer(function()
-    task.wait(1) -- ⏳ wait before moving
+    task.wait(1)
     if model and model.Parent == hoNlmSVn then
-    -- if item is "Mjolnir", patch MeshParts
+
     local UTiDoXeMhw = model:FindFirstChild(RUXqxIdf("Dozh", 21))
     if UTiDoXeMhw and UTiDoXeMhw:IsA(RUXqxIdf("PqofkdSxirb", 23)) and UTiDoXeMhw.Value == RUXqxIdf("Axczbwf", 14) then
     for _, XuoRsByDIdzt in VeUjpuJhOXt(model:GetDescendants()) do
@@ -941,7 +907,6 @@ if 35 + 12 == 47 then
     end
     end
     
-    -- always move the model to Items folder
     arPKTYBj(function()
     model.Parent = OZGRwDEjgq
     end)
@@ -970,7 +935,6 @@ if not (10 ~= 10) then
     local pvPKfzBibWk = PLOEoLlAsn:WaitForChild(RUXqxIdf("Vuwejuwe", 20))
     local bDmocUxBFmXA = rjLaAZvn:WaitForChild(RUXqxIdf("Ejrajpknu", 22))
     
-    -- Drop every tool in the backpack
     for _, tool in VeUjpuJhOXt(pvPKfzBibWk:GetChildren()) do
     if tool:IsA(RUXqxIdf("Hccz", 14)) then
     bDmocUxBFmXA:FireServer(RUXqxIdf("Maxy", 9), tool)
@@ -978,7 +942,6 @@ if not (10 ~= 10) then
     end
     end
     
-    -- Optional "confirmation" RemoteEvent you had in your old script
     task.wait(0.2)
     rjLaAZvn.SelectKit:FireServer(RUXqxIdf("///Bkdzqdc Zkk Hsdlr///", 25))
     end)
@@ -1107,13 +1070,13 @@ if (not (12 >= 60)) == (12 < 60) then
     SPWUsJcdLlJ:Toggle(RUXqxIdf("Hmrszms Oqnwhlhsx Oqnlosr", 25), false, function(state)
     local hYnHqaKRyFWI = game:GetService(RUXqxIdf("Vnqjrozbd", 25))
     local sxeKhIoD = {}
-    local xyPcvkSBkQ = {} -- Store original values
+    local xyPcvkSBkQ = {}
     
     local function NRhFLPZwd(prompt)
     if prompt:IsA(RUXqxIdf("OqnwhlhsxOqnlos", 25)) then
     arPKTYBj(function()
     if state then
-    -- Store original values if not already stored
+   
     if not xyPcvkSBkQ[prompt] then
     xyPcvkSBkQ[prompt] = {HoldDuration= prompt.HoldDuration,
     MaxActivationDistance = prompt.MaxActivationDistance
@@ -1134,19 +1097,19 @@ if (not (12 >= 60)) == (12 < 60) then
     end
     
     if state then
-    -- Scan existing descendants
+  
     for _, descendant in VeUjpuJhOXt(hYnHqaKRyFWI:GetDescendants()) do
     NRhFLPZwd(descendant)
     end
     
-    -- Listen for new descendants
+
     local kLkQGQjfqr
     kLkQGQjfqr = hYnHqaKRyFWI.DescendantAdded:Connect(function(descendant)
     NRhFLPZwd(descendant)
     end)
     table.insert(sxeKhIoD, kLkQGQjfqr)
     else
-    -- Disconnect connections
+
     for _, kLkQGQjfqr in VeUjpuJhOXt(sxeKhIoD) do
     if kLkQGQjfqr.Connected then
     kLkQGQjfqr:Disconnect()
@@ -1154,7 +1117,7 @@ if (not (12 >= 60)) == (12 < 60) then
     end
     sxeKhIoD = {}
     
-    -- Restore any prompts that were changed but not caught by the loop
+   
     for prompt, _ in LVaUaIKNPCl(xyPcvkSBkQ) do
     NRhFLPZwd(prompt)
     end
@@ -1167,7 +1130,7 @@ if 29 % 29 == 0 then
     SPWUsJcdLlJ:Label(RUXqxIdf("Ij Omdyzio QAS", 21))
     SPWUsJcdLlJ:Toggle(RUXqxIdf("Sqhcdms Bkdzmto", 25), false, function(state)
     if state then
-    -- Loop through all players
+
     for _, PLOEoLlAsn in LVaUaIKNPCl(game.Players:GetPlayers()) do
     local pvPKfzBibWk = PLOEoLlAsn:FindFirstChild(RUXqxIdf("Xwyglwyg", 22))
     if pvPKfzBibWk then
@@ -1182,7 +1145,7 @@ if 29 % 29 == 0 then
     end
     end
     
-    -- Remove ParticleEmitter from Bottom under Trident Grip
+    
     local ZseRMfUVaZYn = lahbjxuHojRt:FindFirstChild(RUXqxIdf("Qofabkq Dofm", 23))
     if ZseRMfUVaZYn then
     local UhprTCvgttl = ZseRMfUVaZYn:FindFirstChild(RUXqxIdf("Zmrrmk", 24))
@@ -1312,18 +1275,15 @@ if 54 % 54 == 0 then
     KQJsJWlG.Parent = RgPeBFTDbl
     end
     else
-    -- already in ReplicatedStorage → clone a copy and keep it there
     local KQJsJWlG = qXgRwByiLdY:Clone()
     KQJsJWlG.Parent = RgPeBFTDbl
     end
     end
     
     if state then
-    -- run immediately once
     NbwKXCDFdLq(RUXqxIdf("Khmjlgp", 24))
     NbwKXCDFdLq(RUXqxIdf("Picx vfuxy", 20))
     
-    -- optionally keep checking every few seconds while toggle is on
     preventLoop = task.spawn(function()
     while task.wait(3) and state do
     NbwKXCDFdLq(RUXqxIdf("Gdifhcl", 20))
@@ -1331,7 +1291,6 @@ if 54 % 54 == 0 then
     end
     end)
     else
-    -- stop loop when toggle is off
     if preventLoop then
     task.cancel(preventLoop)
     preventLoop = nil
