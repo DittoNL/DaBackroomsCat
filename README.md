@@ -18,4 +18,10 @@ Combat Tab
 > Disable Sickle Puddles.    
 > Disable Waves.   
 > Disable Portals.   
-> Custom No Item Loss.  
+> Custom No Item Loss.
+> 
+Duplication
+> Inventory Duplication.   
+> Dupe Others.  
+> Dev Dupe.   
+> Prevent missing textures (Client)    
